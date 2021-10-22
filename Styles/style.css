@@ -1,0 +1,61 @@
+
+/* 
+Have 3 columns at some point in the design
+Use Justified Content
+Use a media query to change some aspect of your design at smaller width
+*/
+
+p{
+	color: #FF5733;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+body{
+	background: whitesmoke;
+
+}
+
+h1 {
+    text-shadow: 1px 1px darkblue;
+}
+.my-pic{
+    height: 400px;
+    padding-left: 20%;
+}
+.important-text {
+    text-decoration: underline;
+    font-weight: bold;
+}
+ul {
+    display: inline-block; text-align: left; 
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+@media (min-width: 700px){
+    #flexible {
+        display: flex;
+        justify-content: center;
+    }
+}
+.main-text {
+    text-align: center;
+
+}
+
+
+.contact-details {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+
+#socials {
+    padding-left: 15%;
+}
+
+#twitter {
+    max-height: 10em;
+}

@@ -1,1 +1,68 @@
-Hello World
+<!-- Take your CV site and split it into 2 pages:
+
+One for your 'Cover letter'
+
+One for your Experience, Skills and Education
+
+Add an image of yourself and put in the 'images' folder
+
+Move your stylesheet to a 'styles' folder
+
+Use relative pathing for the above-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My CV</title>
+		<link rel="stylesheet" href="Styles/style.css">
+	</head>
+	<body>
+        
+		<div class = "contact-details">
+			<h1>Dara O'hEocha</h1>
+			<h3>Email:doheocha@hotmail.com</h3>
+			<h3>Phone number: 0000 </h3>
+            <h3><a href = '#socials'>Find me on social media</a></h3>
+		</div>
+        <div >
+            <img class ='my-pic' src ='images/headshot.jpg' alt ='My headshot'>
+        </div>
+        <div class="main-text" id ='flexible'>
+            <div class = 'box'>
+                <h2>Education</h2>
+                <h6>DCU - BA of Business Studies</h6>
+                <ul class = 'square-list'>
+                    <li><p>Studied <span class = 'important-text'>Business </span> Strategy</p></li>
+                    <li><p>Studied Customer Experience</p></li>
+                    <li><p>Made lots of <span class = 'important-text'>friends</span></p></li>
+                </ul>
+            </div>
+
+            <div class = 'box'>
+                <h2>Work Experience</h2>
+                <h6>Future Cast - Marketing</h6>
+                <ul>
+                    <li><p>Built lots of ads</p></li>
+                    <li><p>Got people to buy things</p></li>
+                    <li><p>had a blast</p></li>
+                </ul>
+            </div>
+
+            <div class = 'box'>
+                <h2>Skills</h2>
+                <ul>
+                    <li><p>Very Friendly</p></li>
+                    <li><p>Knows how to make a CV</p></li>
+                    <li><p>Great at waterpolo</p></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id='socials' >
+            <a href ='https://twitter.com/'>
+                <img src = 'images/twitter-bird-light-bgs.png' id = 'twitter' alt = 'My Twitter link' target=”_blank”>
+            </a>
+        </div>
+	<body>	
+</html>
